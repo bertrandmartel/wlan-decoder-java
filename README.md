@@ -175,4 +175,4 @@ Element id not parsed will be displayed at the beginning of the output like this
 * Project is JRE 1.7 compliant
 * You can build it with ant => build.xml
 * Development on Eclipse 
-* Specification from http://www.radiotap.org
+* Specification from https://standards.ieee.org/getieee802/download/802.11-2012.pdf
