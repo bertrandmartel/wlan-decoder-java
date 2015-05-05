@@ -68,6 +68,8 @@ This exemple is launched from release folder
 
 ``wlanDecodedFrameList.add(dataDecode);``
 
+Check ``fr.bmartel.wlandecoder.DisplayDecodingInfo.java`` to see how to retrieve data programmatically.
+
 You can retrieve radiotap data too if you want. Go check http://akinaru.github.io/radiotap-decoder-java/ for more precision
 
 <b>PROGRAM SYNTAX for parsing Wlan802.11 frames ONLY</b>
@@ -175,4 +177,4 @@ Element id not parsed will be displayed at the beginning of the output like this
 * Project is JRE 1.7 compliant
 * You can build it with ant => build.xml
 * Development on Eclipse 
-* Specification from http://www.radiotap.org
+* Specification from https://standards.ieee.org/getieee802/download/802.11-2012.pdf
