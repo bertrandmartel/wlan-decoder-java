@@ -44,7 +44,7 @@ import fr.bmartel.protocol.wlan.utils.ByteUtils;
  */
 public class DisplayDecodingInfo {
 
-	private final static String tab ="=======";
+	private final static String tab ="-------";
 	
 	/**
 	 * Display all information about Wlan802dot11 frames

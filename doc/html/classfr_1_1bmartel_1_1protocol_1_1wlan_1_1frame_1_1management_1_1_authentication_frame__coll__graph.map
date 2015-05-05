@@ -1,0 +1,6 @@
+<map id="fr.bmartel.protocol.wlan.frame.management.AuthenticationFrame" name="fr.bmartel.protocol.wlan.frame.management.AuthenticationFrame">
+<area shape="rect" id="node2" href="$classfr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1_wlan_management_abstr.html" title="fr.bmartel.protocol.wlan.frame.\lWlanManagementAbstr" alt="" coords="308,39,505,86"/>
+<area shape="rect" id="node4" href="$interfacefr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1_i_wlan_management_frame.html" title="fr.bmartel.protocol.wlan.frame.\lIWlanManagementFrame" alt="" coords="7,5,204,51"/>
+<area shape="rect" id="node6" href="$interfacefr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1_i_wlan_frame.html" title="fr.bmartel.protocol.wlan.frame.\lIWlanFrame" alt="" coords="7,74,204,121"/>
+<area shape="rect" id="node8" href="$interfacefr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1management_1_1inter_1_1_i_authentication_frame.html" title="fr.bmartel.protocol.wlan.frame.management.inter.\lIAuthenticationFrame" alt="" coords="253,109,560,155"/>
+</map>

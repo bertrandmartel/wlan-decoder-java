@@ -1,0 +1,5 @@
+<map id="fr.bmartel.protocol.wlan.frame.management.element.impl.TimElement" name="fr.bmartel.protocol.wlan.frame.management.element.impl.TimElement">
+<area shape="rect" id="node2" href="$classfr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1management_1_1element_1_1_wlan_element_abstr.html" title="fr.bmartel.protocol.wlan.frame.management.element.\lWlanElementAbstr" alt="" coords="396,5,724,51"/>
+<area shape="rect" id="node4" href="$interfacefr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1management_1_1element_1_1_i_wlan_element.html" title="fr.bmartel.protocol.wlan.frame.management.element.\lIWlanElement" alt="" coords="5,5,333,51"/>
+<area shape="rect" id="node6" href="$interfacefr_1_1bmartel_1_1protocol_1_1wlan_1_1frame_1_1management_1_1element_1_1inter_1_1_i_tim_element.html" title="fr.bmartel.protocol.wlan.frame.management.element.inter.\lITimElement" alt="" coords="381,74,739,121"/>
+</map>
