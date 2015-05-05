@@ -83,86 +83,87 @@ You can retrieve radiotap data too if you want. Go check http://akinaru.github.i
 
 
 Wlan frame control
-=======protocolVersion   : 0
-=======type              : 0
-=======subType           : 8
-=======toDS              : false
-=======fromDS            : false
-=======moreFragmentation : false
-=======retry             : false
-=======powerManagement   : false
-=======moreData          : false
-=======wep               : false
-=======order             : false
+-------protocolVersion   : 0
+-------type              : 0
+-------subType           : 8
+-------toDS              : false
+-------fromDS            : false
+-------moreFragmentation : false
+-------retry             : false
+-------powerManagement   : false
+-------moreData          : false
+-------wep               : false
+-------order             : false
 Wlan management frame
-=======duration id     : 00 | 00
-=======destinationAddr : FF | FF | FF | FF | FF | FF
-=======sourceAddr      : 00 | 24 | D4 | 6B | 0C | 5D
-=======bssid           : 00 | 24 | D4 | 6B | 0C | 5D
-=======sequenceControl : 00 | E5
-=======fcs             : A3 | 26 | 13 | 07
-=======MANAGEMENT BEACON FRAME
-==============timestamp              : 00 | 00 | 03 | 32 | DE | 25 | 01 | 60
-==============beaconInterval         : 96
-==============capability information : 04 | 01
-=====================Dynamic Elements
-=====================element id : 0
-============================SSID : FreeWifi
-=====================Dynamic Elements
-=====================element id : 1
-============================data rates supported : 1000kbps,2000kbps,5500kbps,11000kbps,22000kbps,6000kbps,9000kbps,12000kbps,
-=====================Dynamic Elements
-=====================element id : 3
-============================currentChannel : 12
-============================frequency      : -1
-=====================Dynamic Elements
-=====================element id : 5
-============================number of beacon frame before next DTIM  : 0
-============================number of beacon interval between 2 DTIM : 2
-============================TIM bitmapControl                        : 0
-============================TIM partialVirtualBitmap : 00 | 
-=====================Dynamic Elements
-=====================element id : 42
-============================isErpPresent         : false
-============================useProtection        : false
-============================isBarkerPreambleMode : true
-=====================Dynamic Elements
-=====================element id : 50
-============================extended data rates supported : 18000kbps,24000kbps,36000kbps,48000kbps,54000kbps,
-=====================Dynamic Elements
-=====================element id : 45
-============================support short 20Mhz           : true
-============================support short 40Mhz           : true
-============================channel width 20MHz supported : false
-============================channel width 40MHz supported : true
-============================AMPDU paramters               : 3
-============================MCS Supported : n°0-BPSK
-============================MCS Supported : n°1-QPSK
-============================MCS Supported : n°2-QPSK
-============================MCS Supported : n°3-16-QAM
-============================MCS Supported : n°4-16-QAM
-============================MCS Supported : n°5-64-QAM
-============================MCS Supported : n°6-64-QAM
-============================MCS Supported : n°7-64-QAM
-============================MCS Supported : n°8-BPSK
-============================MCS Supported : n°9-QPSK
-============================MCS Supported : n°10-QPSK
-============================MCS Supported : n°11-16-QAM
-============================MCS Supported : n°12-16-QAM
-============================MCS Supported : n°13-64-QAM
-============================MCS Supported : n°14-64-QAM
-============================MCS Supported : n°15-64-QAM
-============================MCS Supported : n°16-BPSK
-============================MCS Supported : n°17-QPSK
-============================MCS Supported : n°18-QPSK
-============================MCS Supported : n°19-16-QAM
-============================MCS Supported : n°20-16-QAM
-============================MCS Supported : n°21-64-QAM
-============================MCS Supported : n°22-64-QAM
-============================MCS Supported : n°23-64-QAM
-============================HT Extended capabilities           : 00 | 00
-============================Transmit beam forming capabilities : 00 | 00 | 00 | 00
-============================ASEL capabilities                  : 0
+-------duration id     : 00 | 00
+-------destinationAddr : FF | FF | FF | FF | FF | FF
+-------sourceAddr      : 00 | 24 | D4 | 6B | 0C | 5D
+-------bssid           : 00 | 24 | D4 | 6B | 0C | 5D
+-------sequenceControl : 00 | E5
+-------frameBody       : 60 | 01 | 25 | DE | 32 | 03 | 00 | 00 | 60 | 00 | 01 | 04 | 00 | 08 | 46 | 72 | 65 | 65 | 57 | 69 | 66 | 69 | 01 | 08 | 82 | 84 | 8B | 96 | 2C | 0C | 12 | 18 | 03 | 01 | 0C | 05 | 04 | 00 | 02 | 00 | 00 | 2A | 01 | 04 | 32 | 05 | 24 | 30 | 48 | 60 | 6C | 2D | 1A | 6C | 00 | 03 | FF | FF | FF | 00 | 01 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 01 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 3D | 16 | 0C | 00 | 13 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 7F | 08 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 40 | DD | 18 | 00 | 50 | F2 | 02 | 01 | 01 | 00 | 00 | 03 | A4 | 00 | 00 | 27 | A4 | 00 | 00 | 42 | 43 | 5E | 00 | 62 | 32 | 2F | 00
+-------fcs             : A3 | 26 | 13 | 07
+-------MANAGEMENT BEACON FRAME
+--------------timestamp              : 00 | 00 | 03 | 32 | DE | 25 | 01 | 60
+--------------beaconInterval         : 96
+--------------capability information : 04 | 01
+---------------------Dynamic Elements
+---------------------element id : 0
+----------------------------SSID : FreeWifi
+---------------------Dynamic Elements
+---------------------element id : 1
+----------------------------data rates supported : 1000kbps,2000kbps,5500kbps,11000kbps,22000kbps,6000kbps,9000kbps,12000kbps,
+---------------------Dynamic Elements
+---------------------element id : 3
+----------------------------currentChannel : 12
+----------------------------frequency      : -1
+---------------------Dynamic Elements
+---------------------element id : 5
+----------------------------number of beacon frame before next DTIM  : 0
+----------------------------number of beacon interval between 2 DTIM : 2
+----------------------------TIM bitmapControl                        : 0
+----------------------------TIM partialVirtualBitmap : 00 | 
+---------------------Dynamic Elements
+---------------------element id : 42
+----------------------------isErpPresent         : false
+----------------------------useProtection        : false
+----------------------------isBarkerPreambleMode : true
+---------------------Dynamic Elements
+---------------------element id : 50
+----------------------------extended data rates supported : 18000kbps,24000kbps,36000kbps,48000kbps,54000kbps,
+---------------------Dynamic Elements
+---------------------element id : 45
+----------------------------support short 20Mhz           : true
+----------------------------support short 40Mhz           : true
+----------------------------channel width 20MHz supported : false
+----------------------------channel width 40MHz supported : true
+----------------------------AMPDU paramters               : 3
+----------------------------MCS Supported : n°0-BPSK
+----------------------------MCS Supported : n°1-QPSK
+----------------------------MCS Supported : n°2-QPSK
+----------------------------MCS Supported : n°3-16-QAM
+----------------------------MCS Supported : n°4-16-QAM
+----------------------------MCS Supported : n°5-64-QAM
+----------------------------MCS Supported : n°6-64-QAM
+----------------------------MCS Supported : n°7-64-QAM
+----------------------------MCS Supported : n°8-BPSK
+----------------------------MCS Supported : n°9-QPSK
+----------------------------MCS Supported : n°10-QPSK
+----------------------------MCS Supported : n°11-16-QAM
+----------------------------MCS Supported : n°12-16-QAM
+----------------------------MCS Supported : n°13-64-QAM
+----------------------------MCS Supported : n°14-64-QAM
+----------------------------MCS Supported : n°15-64-QAM
+----------------------------MCS Supported : n°16-BPSK
+----------------------------MCS Supported : n°17-QPSK
+----------------------------MCS Supported : n°18-QPSK
+----------------------------MCS Supported : n°19-16-QAM
+----------------------------MCS Supported : n°20-16-QAM
+----------------------------MCS Supported : n°21-64-QAM
+----------------------------MCS Supported : n°22-64-QAM
+----------------------------MCS Supported : n°23-64-QAM
+----------------------------HT Extended capabilities           : 00 | 00
+----------------------------Transmit beam forming capabilities : 00 | 00 | 00 | 00
+----------------------------ASEL capabilities
 
 
 Element id not parsed will be displayed at the beginning of the output like this :
