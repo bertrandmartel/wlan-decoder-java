@@ -34,7 +34,8 @@ You can also decode only wlan802.11 frames if you dont have radiotap header befo
 
 First you need a pcapng file containing :
  * your wlan 802.11 frames preceding with radiotap frames
-
+ * Or your wlan 802.11 frames only
+ 
 You can use to parse this file 
 * the jnetpcap library 
 * my own lib in http://akinaru.github.io/pcapng-decoder-java/ (pcapng-decoder-java)
@@ -59,24 +60,24 @@ This exemple is launched from release folder
 
 <b>PROGRAM SYNTAX for parsing Wlan802.11 frames preceding with radiotap header</b>
 
-``//data parsed from pcapng file``
 ``byte[] wlanDataPrecedingWithRadiotapHeader = packet.getPacketData();``
 
-``//initiate decoding``
 ``WlanDecoder dataDecode = new WlanDecoder(packet.getPacketData());``
+
 ``dataDecode.decodeWithRadiotap();``
+
 ``wlanDecodedFrameList.add(dataDecode);``
 
 You can retrieve radiotap data too if you want. Go check http://akinaru.github.io/radiotap-decoder-java/ for more precision
 
 <b>PROGRAM SYNTAX for parsing Wlan802.11 frames ONLY</b>
 
-``//data parsed from pcapng file``
 ``byte[] wlanDataPrecedingWithRadiotapHeader = packet.getPacketData();``
 
-``//initiate decoding``
 ``WlanDecoder dataDecode = new WlanDecoder(packet.getPacketData());``
+
 ``dataDecode.decode();``
+
 ``wlanDecodedFrameList.add(dataDecode);``
 
 # Output example
