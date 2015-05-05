@@ -81,7 +81,7 @@ You can retrieve radiotap data too if you want. Go check http://akinaru.github.i
 
 # Output example
 
-``
+
 Wlan frame control
 =======protocolVersion   : 0
 =======type              : 0
@@ -100,7 +100,6 @@ Wlan management frame
 =======sourceAddr      : 00 | 24 | D4 | 6B | 0C | 5D
 =======bssid           : 00 | 24 | D4 | 6B | 0C | 5D
 =======sequenceControl : 00 | E5
-=======frameBody       : 60 | 01 | 25 | DE | 32 | 03 | 00 | 00 | 60 | 00 | 01 | 04 | 00 | 08 | 46 | 72 | 65 | 65 | 57 | 69 | 66 | 69 | 01 | 08 | 82 | 84 | 8B | 96 | 2C | 0C | 12 | 18 | 03 | 01 | 0C | 05 | 04 | 00 | 02 | 00 | 00 | 2A | 01 | 04 | 32 | 05 | 24 | 30 | 48 | 60 | 6C | 2D | 1A | 6C | 00 | 03 | FF | FF | FF | 00 | 01 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 01 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 3D | 16 | 0C | 00 | 13 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 7F | 08 | 00 | 00 | 00 | 00 | 00 | 00 | 00 | 40 | DD | 18 | 00 | 50 | F2 | 02 | 01 | 01 | 00 | 00 | 03 | A4 | 00 | 00 | 27 | A4 | 00 | 00 | 42 | 43 | 5E | 00 | 62 | 32 | 2F | 00
 =======fcs             : A3 | 26 | 13 | 07
 =======MANAGEMENT BEACON FRAME
 ==============timestamp              : 00 | 00 | 03 | 32 | DE | 25 | 01 | 60
@@ -164,7 +163,7 @@ Wlan management frame
 ============================HT Extended capabilities           : 00 | 00
 ============================Transmit beam forming capabilities : 00 | 00 | 00 | 00
 ============================ASEL capabilities                  : 0
-``
+
 
 Element id not parsed will be displayed at the beginning of the output like this :
 * Element id not decoded => 61
