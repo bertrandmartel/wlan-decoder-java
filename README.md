@@ -48,7 +48,7 @@ So basically this project use 2 external libs pcapngdecoder.jar and radiotapdeco
 
 <b>COMMAND LINE SYNTAX</b> 
 
-``java -cp ../libs/pcapngdecoder-1.0.jar:../libs/radiotapdecoder-1.0.jar:wlandecoder-1.0.jar fr.bmartel.wlandecoder.DecodeMain -f ../pcapfile/exemple.pcapng  -v``
+``java -cp wlandecoder-1.0.jar fr.bmartel.wlandecoder.DecodeMain -f ../pcapfile/exemple.pcapng  -v``
 
 -f <file.pcapng> : input file
 
