@@ -27,6 +27,9 @@
 		<jar destfile="${basedir}/release/${project-name}-${version}.jar">
 			<fileset dir="${basedir}/bin" />
 			<zipgroupfileset dir="${basedir}/libs" includes="**/*.jar" />
+			<manifest>
+			    <attribute name="Main-Class" value="fr.bmartel.wlandecoder.DecodeMain"/>
+			 </manifest>
 		</jar>
 	</target>
 
