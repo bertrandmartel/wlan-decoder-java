@@ -1,4 +1,4 @@
-# Wlan 802.11 Decoder in Java #
+# Wlan 802.11 Decoder #
 
 http://akinaru.github.io/wlan-decoder-java/
 
