@@ -1,12 +1,12 @@
 # Wlan 802.11 Decoder #
 
-http://akinaru.github.io/wlan-decoder-java/
+http://bertrandmartel.github.io/wlan-decoder-java/
 
 <i>Last update 04/05/2015</i>
 
 Decoder for Wlan 802.11 frame preceding with Radiotap header or not
 
-Radiotap header are parsed with project http://akinaru.github.io/pcapng-decoder-java/
+Radiotap header are parsed with project http://bertrandmartel.github.io/pcapng-decoder-java/
 
 All type of Wlan 802.11 frames are parsed :
  * MANAGEMENT_FRAME_TYPE
@@ -38,7 +38,7 @@ First you need a pcapng file containing :
  
 You can use to parse this file 
 * the jnetpcap library 
-* my own lib in http://akinaru.github.io/pcapng-decoder-java/ (pcapng-decoder-java)
+* my own lib in http://bertrandmartel.github.io/pcapng-decoder-java/ (pcapng-decoder-java)
 
 You dont have to take the jar to you it is already in lib folder
 
@@ -70,7 +70,7 @@ This exemple is launched from release folder
 
 Check ``fr.bmartel.wlandecoder.DisplayDecodingInfo.java`` to see how to retrieve data programmatically.
 
-You can retrieve radiotap data too if you want. Go check http://akinaru.github.io/radiotap-decoder-java/ for more precision
+You can retrieve radiotap data too if you want. Go check http://bertrandmartel.github.io/radiotap-decoder-java/ for more precision
 
 <b>PROGRAM SYNTAX for parsing Wlan802.11 frames ONLY</b>
 

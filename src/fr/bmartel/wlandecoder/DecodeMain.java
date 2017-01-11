@@ -40,7 +40,7 @@ import fr.bmartel.protocol.wlan.inter.IWlan802dot11Radiotap;
  *
  *Decoder for Wlan 802.11 frame preceding with Radiotap header or not
 
- Radiotap header are parsed with project http://akinaru.github.io/pcapng-decoder-java/
+ Radiotap header are parsed with project http://bertrandmartel.github.io/pcapng-decoder-java/
 
  All type of Wlan 802.11 frames are parsed :
  * MANAGEMENT_FRAME_TYPE
